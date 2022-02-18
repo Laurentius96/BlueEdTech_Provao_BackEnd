@@ -1,4 +1,3 @@
-// 39°) Pegamos do material do nestjs https://docs.nestjs.com/security/authentication#implement-protected-route-and-jwt-strategy-guards e modificamos 
 import { ExtractJwt, Strategy } from 'passport-jwt';
 import { PassportStrategy } from '@nestjs/passport';
 import { Injectable, NotFoundException } from '@nestjs/common';
